@@ -1,0 +1,44 @@
+.homepagelinks a{background: linear-gradient(#ca3b48, #7e1018); float:left;color:#fff;width:94%; margin:3px; font-size:14px;	text-align:center;	text-decoration:none;border:2px solid #fff; padding:6px 3px 6px 3px; font-weight:bold; -webkit-border-radius:3px;	border-radius:3px;	-moz-box-shadow: 0 0 3px #333;	-webkit-box-shadow: 0 0 3px #333; box-shadow: 0 0 3px #333;}
+
+.homepagelinks a:hover{background:#fc3;color:#6a0e14;	border:2px solid #fff; margin:3px; font-size:14px;	text-align:center;	text-decoration:none; padding:6px 3px 6px 3px; font-weight:bold; -webkit-border-radius:3px;	border-radius:3px;	-moz-box-shadow: 0 0 3px #333;	-webkit-box-shadow: 0 0 3px #333; box-shadow: 0 0 3px #333;}
+
+.blinker{ 
+background:#5b0009; float:left;color:#fff;width:94%; margin:3px; font-size:14px;	text-align:center;	text-decoration:none;border:1px solid #6d131b; text-decoration:blink;padding:6px 3px 6px 3px; -webkit-border-radius:4px;	border:1px solid #b01e2b;border-radius:4px; 
+
+animation: changecolor 2s infinite;  -moz-animation: changecolor 1s infinite; -webkit-animation: changecolor 1s infinite; 
+-ms-animation: changecolor 1s infinite; -o-animation: changecolor 1s infinite; } 
+
+@keyframes changecolor 
+{ 
+80% {color: #fff; background:#7e1018;}  
+30% {color: #fff; background:#a31f2b;}  
+50% {color: #fff; background:#3c8f1f;}  
+} 
+/* Mozilla Browser */ 
+@-moz-keyframes changecolor 
+{ 
+80% {color: #fff; background:#7e1018;}  
+30% {color: #fff; background:#a31f2b;}  
+50% {color: #fff; background:#3c8f1f;} 
+} 
+/* WebKit browser Safari and Chrome */ 
+@-webkit-keyframes changecolor 
+{ 
+80% {color: #fff; background:#7e1018;}  
+30% {color: #fff; background:#a31f2b;}  
+50% {color: #fff; background:#3c8f1f;}  
+} 
+/* IE 9,10*/ 
+@-ms-keyframes changecolor 
+{ 
+80% {color: #fff; background:#7e1018;}  
+30% {color: #fff; background:#a31f2b;}  
+50% {color: #fff; background:#3c8f1f;}     
+} 
+/* Opera Browser*/ 
+@-o-keyframes changecolor 
+{ 
+80% {color: #fff; background:#7e1018;}  
+30% {color: #fff; background:#a31f2b;}  
+50% {color: #fff; background:#3c8f1f;}      
+} 

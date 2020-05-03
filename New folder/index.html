@@ -1,0 +1,1193 @@
+﻿
+<!DOCTYPE 
+<html>
+
+<head><title>
+	JSMV
+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="favicon-2.html" />
+    <link href="Plagin/css/style.css" rel="stylesheet" />
+    <link href="Plagin/fontsRvss/stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <script src="Plagin/js/jquery-1.6.4.min.js"></script>
+    <script src="Plagin/mainManu/jquery-1.js"></script>
+    <script src="Plagin/mainManu/jquerymenu.js"></script>
+    <script src="Plagin/js/rvssDisable.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="Plagin/mainManu/menu.css" rel="stylesheet" />
+
+    <script src="Plagin/js/rvssDisable.html"></script>
+    <script type="text/javascript">
+        function date_time(id) {
+            date = new Date;
+            year = date.getFullYear();
+            month = date.getMonth();
+            months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+            d = date.getDate();
+            day = date.getDay();
+            days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+            h = date.getHours();
+            if (h < 10) {
+                h = "0" + h;
+            }
+            m = date.getMinutes();
+            if (m < 10) {
+                m = "0" + m;
+            }
+            s = date.getSeconds();
+            if (s < 10) {
+                s = "0" + s;
+            }
+            result = '' + days[day] + ' ' + months[month] + ' ' + d + ' ' + year + ' ' + h + ':' + m + ':' + s;
+            document.getElementById(id).innerHTML = result;
+            setTimeout('date_time("' + id + '");', '1000');
+            return true;
+        }
+    </script>
+    
+</head>
+<body>
+    <!--main_block_start-->
+    <div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWDAIBDw8WAh4EVGV4dAUbZm9ydHdpbGxpYW1rdi5rdnNAZ21haWwuY29tZGQCAw8PFgIfAAUMMDMzLTIyNDg1MTE3ZGQCBQ8PFgIfAAUMMDMzLTIyMzAyODQ1ZGQCBw8PFgIfAAVW4KSV4KWH4KSo4KWN4KSm4KWN4KSw4KWA4KSvIOCkteCkv+CkpuCljeCkr+CkvuCksuCkryDgpKvgpYvgpLDgpY3gpJ/gpLXgpL/gpLLgpL/gpK/gpK5kZAIJDw8WAh8ABR5LRU5EUklZQSBWSURZQUxBWUEgRk9SVFdJTExJQU1kZAILDw8WAh8ABQcyNDAwMDAxZGRkD3ZIdf6GS8/ZgjnbRUWgJ8DOQs8jlFWkYDdYXZ7/3Tk=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmKvs_'];
+if (!theForm) {
+    theForm = document.frmKvs_;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F77A82F8" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIRSy+Gu0gMRTph3NzRhiGdW5LM7MyPfF3EEwohgyJ8OKLySUaZjIH4gumUbLi1cZqer0wJ/tODnWqNa0nPfOpi" />
+</div>
+        <div id="main_block">
+            <!--header_start-->
+            <!--header_start-->
+            <div id="header">
+                 <div class="top_icons">
+                    <div class="email">
+                        <a href="#">
+                            <a id="lbEmail" href="javascript:__doPostBack(&#39;ctl00$lbEmail&#39;,&#39;&#39;)" style="color:Maroon;">jyotirmoysanatanimahavidyapith@gmail.com</a></a>
+                    </div>
+                    <div class="phone">
+                        <span id="lblPhoneNo">(+91)7044771296</span>
+                    </div>
+
+                    <!-- <div class="fax">
+                        <span id="lblFax">7044771296</span>
+                    </div -->>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <!-- header start -->
+                <div style="background: #55040b">
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div style="width: 160px;height: auto;margin: auto;padding: 10px 0;">
+                             <img src="Plagin/images/logo1.png" class="img-responsive" >
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div style="padding: 18px 0">
+                            <h3 style="color: #fff;font-size: 30px;text-align: center;margin: 3px">JYOTIRMOY SANATANI MAHAVIDYAPITH</h3>
+                            <h6 style="color: #fff;font-size: 20px;text-align: center;margin: 0px">Registration No :.................</h6>
+                            
+                             <h3 style="color: #fff;font-size: 22px;text-align: center;margin: 0px">Accridiated Under United Nations (UNCCD)</h3>
+                           
+                                                     </div>
+                        </div>
+
+
+                        <div class="col-sm-3">
+                             <div style="width: 160px;height: auto;margin: auto;padding: 10px 0;">
+                        <img src="Plagin/images/saraswati.png" class="img-responsive" >
+                            
+                       </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>            <!--header_end-->
+            <!--main_container_start-->
+
+            <div id="nav">
+                <div id="myslidemenu" class="jqueryslidemenu">
+                    <div id="nav">
+                <div id="myslidemenu" class="jqueryslidemenu">
+                    <ul>
+                        <li style="width:10%"><a href="index-2.html">&nbsp &nbsp &nbsp Home</a></li>
+                        <li style="width:10%">
+                            <a href="#">About us</a>
+                            <ul>
+                                <li><a href="principal.html">Acharya's&#39;s Message</a></li>
+                                <li><a href="Mahavidyapith_history.html">Mahavidyapith History</a></li>
+                                <li><a href="about.html">Aims and Objectives:</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li style="width:10%">
+                            <a href="#">Academics</a>
+                            <ul>
+                                <li>
+                                    <a href="index-2.html">Students</a>
+                                   <!--  <ul>
+                                        <li><a href="KVEnrolment_ClassWise.php">Class wise enrolment</a></li>
+                                        <li><a href="KVEnrolment_CategoryWise.php">Category-wise enrolment </a></li>
+                                        <li><a href="KVStudent_Vacancy.php">Student Vacancy </a></li>
+                                        <li><a href="http://kvsangathan.nic.in/FeeStructure.aspx">Fee Structure</a></li>
+                                        <li><a href="KVStudent_Achievers.php">Student Achievers</a></li>
+                                    </ul> -->
+
+                                </li>
+                                <li>
+                                    <a href="index-2.html">Exam</a>
+                                    <!-- <ul>
+                                        <li><a href="index.php">Result analysis </a></li>
+                                        <li><a href="index.php">Schedule</a></li>
+                                    </ul -->
+                                </li>
+                                <li>
+                                    <a href="index-2.html">Project/Activities</a>
+                                    <!-- <ul>
+                                        <li><a href="KVCmp.php">CMP</a></li>
+                                        <li><a href="KVCca.php">CCA</a></li>
+                                        <li><a href="KVCce.php">UNIFORM SYSTEM OF ASSESSMENT</a></li>
+                                        <li><a href="KVInnovations.php">Innovations</a></li>
+                                        <li><a href="KVGames.php">Game and Sports</a></li>
+                                        <li><a href="KVScouts.php">Scouts and Guides &amp; NCC/ NSS</a></li>
+                                    </ul> -->
+                                </li>
+                                <li><a href="KVIct.html">ICT</a></li>
+                                
+                                <li><a href="index-2.html">Teacher Achievers</a></li>
+                            </ul>
+                        </li>
+                        <li style="width:10%">
+                            <a href="#">Administration</a>
+                            <ul>
+                                
+                                <li><a href="KVStaffMember.html">Administrative Members</a></li>
+                                
+
+                            </ul>
+                        </li>
+                        
+                        <li style="width:10%">
+                            <a href="#">Miscellaneous</a>
+                            <ul>
+                               
+
+                                <li>
+                                    <a href="#">Useful Links</a>
+                                    <ul>
+                                        <li><a href="http://google.com/" target="blank">google.com</a></li>
+                                        <li><a href="http://rediff.com//" target="blank">rediff.com</a></li>
+                                        <li><a href="http://who.org/" target="blank">who.org</a></li>
+
+
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="width:10%"><a href="index.php">Student Corner</a></li>
+                        <li style="width:10%"><a href="KVPhotoGallery.php">Photo Gallery</a> </li>
+                        <li style="width:10%">
+                            <a href="#">Admissions</a>
+                            <ul>
+                                <li><a href="index.php">Admission Schedule</a></li>
+                                <li><a href="KVAadmission_Notice.php">Admission Notice</a></li>
+                                <li><a href="index.php">Admission Lists</a></li>
+                                <li><a href="##">Admission Guidellines</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li style="width:10%"><a href="KVAadmission_Notice.php">Notice</a></li>
+                        <li style="width:8%">
+                            <a href="contact.php">Contact Us</a>
+                            <ul>
+                                <!-- <li><a href="change_admin.php">Please change admin</a></li> -->
+                                <!-- <li><a href="admin/admin_login.php" target="blank">Admin Login</a></li> -->
+                             </ul>
+                         </li>
+                        <div id="google_translate_element" style="padding: 4px; text-align: right"></div>
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+                            }
+                        </script>
+                        <script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit"></script>
+                    </ul>
+                </div>
+            </div>                </div>
+            </div>
+
+   
+
+
+
+
+
+
+
+
+<!--boxes_end-->
+            <div class="clear"></div>
+        </div>
+
+
+        <div id="homecontent_block">
+            <!--main_container_end-->
+            
+    <div id="wraper">
+        <div id="main_block">
+            <div id="main_container">
+                <div class="clear"></div>
+                <div id="">
+                    <div class="latest">
+                                    <div class="flexslider">
+                                        <ul class="slides">
+                                            
+                                                    <li>
+                                                        <img src='Sliding/image/Picture5.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/IMG-20180718-WA0019.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture7.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture8.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                    <li>
+                                                        <img src='Sliding/image/IMG-20180718-WA0009.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                    <li>
+                                                        <img src='Sliding/image/DSC_0004.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                    <li>
+                                                        <img src='Sliding/image/DSC_0140.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture16.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture15.jpg' width="100%" height="450" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture14.jpg' width="100%" height="450" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/Picture11.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Sliding/image/IMG-20190209-WA0072.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                                        <img src='Sliding/image/p-1.jpg' width="100%" height="450px" scrolling="no" frameborder="0" allowtransparency="true" style="padding: 0px; margin: 0px;" />
+                                                    </li>
+                                                
+                                        </ul>
+                                    </div>
+                        </div>
+                </div>
+                <marquee style="color: white; background-color:rgb(208, 117, 5); font-size:medium;font-weight: bold;" behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start();" class="auto-style2">
+                                <span id="ContentPlaceHolderKVS_lblMarquee">
+                                    WE AIM TO PROVIDE STUDENTS WITH AN 
+                                                EXCELLENT EDUCATION
+
+                                    <!-- LINK FOR  ADMISSION GUIDELINES IN ENGLISH  https://kvsangathan.nic.in/sites/default/files/hq/ANN%28E%29-28-02-2019_0.pdf and LINK FOR ADMISSION GUIDELINES IN HINDI  https://kvsangathan.nic.in/sites/default/files/hq/ANN%28H%29-28-02-2019_0.pdf --></span></marquee>
+
+                <!--boxes_start-->
+                    <!--left-->
+                    <div id="homeleft_block_main">
+                        <div style="width:277px;padding:6px; margin:5px auto auto 3px; background:#944004; border-radius:5px;border:1px solid #610508;;font-family:Arial;font-size:14px; font-weight:bold;text-align:center;"><a style="color:#fff;" href="#" target="_blank" title="Online Result Class I to IX">Online Result</a></div>
+                        <div style="width:277px;padding:6px; margin:5px auto auto 3px; background:#7d0a7c; border-radius:5px;border:1px solid #610508;;font-family:Arial;font-size:14px; font-weight:bold;text-align:center;"><a style="color:#fff;" href="#" target="_blank" title="Online Admission">Online Admission</a></div>
+                        <div class="homehea3">Announcements/Notice</div>
+
+                        <!-- notice -->
+                        <div id="marqueecontainer" onmouseover="copyspeed=pausespeed" onmouseout="copyspeed=marqueespeed">
+
+                            <div id="vmarquee" style="position: absolute; left: 3px;">
+                                                                     
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">SELF STUDY AT HOME</span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Due to prevailing pandemic situation in connection with Novel Corona Virus (COVID19) and as per the Circular issued by the Education Department, Govt. of West Bengal all educational Institutions will be closed till 14th April 2020</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">which may further be extended if necessary.In such circumstance the students of Class X (Madhyamik Batch 2021 WBBSE) may avail necessary preparation using any Smart Phone and staying at home through the Digital Learning Platform provided by Bongo Shiksha</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">at free of cost.
+The necessary Link is ; bongosikha.com/schoolexam
+Help Line : 8101611106 / 8584910161
+Contact Person - Mukul Mondal - Programme Manager - Mobile No. - 6291387106
+
+</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">The pandemic Novel Corona Virus has marked an unprecedented time in Modern History and we require the best of Humanity to overcome the war worldwide.
+</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Now to aid the battle for protecting and saving people from this COVID19, a Cheque amounting Rs. 15,00,000/- (Rupees Fifteen Lac Only) has been donated to the "West Bengal State Emergency Relief Fund" </span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">of the Honourable Chief Minister, West Bengal from the end of this School.Wishing all Health and Happiness,
+
+Head Mistress
+Tarasundari Balika Vidyabhaban (H.S.)</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">ONLINE CLASSES</span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">To view videos of online classes click "YouTube Tutorials" link in our website.</span><br>    <a href="admin/upload-pdf/">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">IMPORTANT NOTIFICATION</span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">To view Click here</span><br>    <a href="admin/upload-pdf/NOTICE.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">NOTICE.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Activity worksheet-W.B Govt.</span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Geography Class IX.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Geography Class IX.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Geography Class X.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Geography Class X.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/History Class IX.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">History Class IX.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/History Class X.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">History Class X.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class IX.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class IX.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class X.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class X.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Geography Class VIII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Geography Class VIII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Bengali Class VIII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Bengali Class VIII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/History Class VIII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">History Class VIII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Bengali Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Bengali Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class VI.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class VI.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class VIII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class VIII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Geography Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Geography Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Paribesh Class VI.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Paribesh Class VI.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/History Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">History Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Paribesh Class VII.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Paribesh Class VII.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Bengali Class V.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Bengali Class V.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Math Class V.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Math Class V.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/Geography Class VI.pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">Geography Class VI.pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                                                        
+                                    <img alt="" src="Plagin/images/blinking_new.gif" width="40" height="20" />
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>  
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;"></span><br>    <a href="admin/upload-pdf/govt,notification .pdf">
+                                                <span id="ContentPlaceHolderKVS_lsDATA_lbl_0" style="color:Maroon;">govt,notification .pdf</span></a>
+                                                <br />
+                                                <br />
+                  
+
+                                    
+                          
+                                 
+                                                
+                                            
+                                                
+                                            
+                            </div>
+                        </div>
+
+
+                        <!-- notice -->
+                        <div class="clear"></div>
+                        <div class="homereadmore_bt1"><a href="KVAadmission_Notice.php">Click Here to Download</a></div>
+                        <div class="clear"></div>
+                        <div class="homehea3">HEADMISTRESS</div>
+                        <div class="principal2">
+                            <table cellspacing="0" id="ContentPlaceHolderKVS_FVPINcipalDTTT123" style="border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+                                        <img id="ContentPlaceHolderKVS_FVPINcipalDTTT123_imgPPhoto" class="principal_photo" src="Sliding/image/Picture7.jpg" style="width:280px;height:270px"; />
+                                        <br />
+                                        <div class="prinname">
+                                            <span id="ContentPlaceHolderKVS_FVPINcipalDTTT123_lblPName" style="font-size:Larger;">Smt.Susmita Roy, HEADMISTRESS OF SCHOOL</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <!-- <div class="prinname">
+                                            <span id="ContentPlaceHolderKVS_FVPINcipalDTTT123_lblQulifi" style="font-size:Larger;">MA(GEO),B. Ed.</span>
+                                        </div> -->
+                                    </td>
+	</tr>
+</table>
+                        </div>
+                        <div class="homehea3">HEADMISTRESS MESSAGE:</div>
+                        <p style="font-size: 16px">
+                            As the very proud Principal of this academically selective state high school with a well-respected history of providing exceptional educational outcomes and opportunities for gifted and talented young women since 1911, I warmly welcome you to the website of “TARASUNDARI BALIKA VIDYABHABAN”.</br></br>Smt.Susmita Roy 
+                             
+                        </p>
+                        <!-- <div class="principal2">
+                            <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/yO5uDLgUHcM&amp;t=16s" width="260" height="190">
+                                <param name="movie" value="http://www.youtube.com/v/yO5uDLgUHcM&amp;t=16s" />
+                            </object>
+                            <br />
+                            
+                            <div class="clear"></div>
+                            <div class="homereadmore_bt1"><a href="KVVideos/KVVideos.html">More Videos</a></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div> -->
+                    </div>
+                    <!--left_end-->
+                    <!--right_main-->
+                    <div id="homeright_block_main">
+                        <div id="homemidil">
+                            <div style="color: Navy; text-align: justify; font-family: Verdana;" align="center">
+                                 <table cellspacing="0" id="ContentPlaceHolderKVS_FVBuilding" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+                                        <img id="ContentPlaceHolderKVS_FVBuilding_imgSchoolBuilding" src="Sliding/image/Picture5.jpg" align="middle" style="height:340px;width:680px;" />
+                                    </td>
+	</tr>
+</table>
+                                <div class="thought">Thought for the Day:</div>
+                                <div class="thought_color">WE AIM TO PROVIDE STUDENTS WITH AN 
+EXCELLENT EDUCATION</div>
+                                <div class="clear"></div>
+
+
+                                <p>
+                                    <div class="homecontent">
+                                        <p class="MsoNormal" style="text-align: center;"><span style="font-size: large;"><span style="font-family: Arial; font-size: 22px;border:1px solid #f00;display:inline-block;padding: 4px 13px ; border-radius: 5px;background-color: #f00; color: #fff"><strong>History Regarding Foundation:</strong></span></span></p>
+                                <p style="text-align: center;">&nbsp;</p>
+                                <p style="text-align: center;">
+                                    <span style="font-size: large;"><span style="font-family: Arial;"><strong>
+                                        <div style="height: 400px; width: 650px">
+                                                <table cellspacing="0" id="ContentPlaceHolderKVS_FVCertificate" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+                                                   <!--  <img id="ContentPlaceHolderKVS_FVCertificate_imgSchoolCertificate" src="Admin/imageHandlerCertificate1071.ashx?SLNO=15" align="middle" style="height:520px;width:670px;" /> -->
+                                                <p style="font-size:18px;text-align:left;color:red;">
+                                                    History Regarding Foundation:
+            “Tarasundari Balika Vidyabhaban… a journey since 1911.”</br></br>
+
+            The most prestigious name “TARASUNDARI BALIKA VIDYABHABAN” has been considering as the pride of entire Howrah District. Here primary and secondary sections are simultaneously running successfully within the same premises. The secondary section starts at 10:30 am and breaks at 4:30 pm.</br></br>
+
+            It was the year of 1911. The honourable doctors Mr. Sarat Kumar Das founded “Bantra Coronation Balika Vidyabhaban” at the Thakur dalan of kundu bari just opposite to today’s main school building for the welfare of women’s education. It was a primary school at then (from One to Four standards). Later in the year 1952 Mr. Dhirendra Kumar Das bought a plot of land and established a newly form school named “Tarasundari Balika Vidyabhaban” in the name of his beloved mother Tarasundari. Mrs. Bibha Ghosh ascended as the first headmistress in the primary section. Since that time the school has been keeping her own promise to distribute the knowledge among the future Women.
+                                                            </p>
+
+
+
+
+
+
+
+                                                </td>
+	</tr>
+</table>
+                                        </div>
+                                    </strong></span></span>
+                                </p>
+                                <p>&nbsp;</p>
+                                <p style="text-align: center" class="MsoNormal" align="center">&nbsp;</p>
+                                <p>&nbsp;</p>
+                                    </div>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!--right-->
+                        <div id="homerightblock">
+                            <!-- <div>
+                                <a href="KVSwachhVidyalaya/KVSwachh_Vidyalaya.html">
+                                    <img src="Plagin/images/sv.gif" width="290" height="55" /></a>
+                            </div>
+                            <div>
+                                <a href="KVHaritVidyalaya/KVHaritVidyalaya.html">
+                                    <img src="Plagin/images/hv.gif" width="290" height="55" /></a>
+                            </div>
+                            <div>
+                                <a href="KVExisting%20Infrastructure/KVInfrastructure.html">
+                                    <img src="Plagin/images/ictpic.gif" width="290" height="55" /></a>
+                            </div>
+                           
+                             <div>
+                                <a href="http://www.kvsrokolkata.org/login/">
+                                    <img src="Plagin/images/enrollment.jpg" width="290" height="55" /></a>
+                            </div>
+<div>
+                                <a href="http://learno.kvfortwilliam.org/">
+                                    <img src="Plagin/images/career.gif" width="290" height="55" /></a>
+                            </div>
+                            <div>
+                                <a href="https://play.google.com/store/apps/details?id=com.careerlift.learnokv">
+                                    <img src="Plagin/images/dapp.gif" width="290" height="55" /></a>
+                            </div>
+                            <div>
+                                <a href="https://epay.unionbankofindia.co.in/kvfee/">
+                                    <img src="Plagin/images/online_fee_btn.jpg" width="290" height="55" /></a>
+                            </div>
+                            <div>
+                                <a href="KVVisitor%20Timing/KVVisitorTiming.html">
+                                    <img src="Plagin/images/visitor_button.jpg" width="290" height="55" /></a>
+                            </div> -->
+                            <br />
+                            <div class="homehea3">Latest Photos</div>
+                            <div class="latest">
+                                <div class="slider_container">
+                                    <div class="flexslider">
+                                        <ul class="slides">
+                                                    <li>
+                                                        
+
+
+
+                                                            <img src="upload-image/1017.IMG-20200401-WA0004.jpg"style="width:260px;height:250px;" />
+                                                                                                                   
+                                                
+                                                    </li>
+                                            
+                                                   <!--  <li>
+                                                        <img src='Admin/Photo/1_.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/2.png' style="width:260px;height:250px;" />
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/3.png' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180725_083309.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180725_083427.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180725_083704.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180725_083653.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG-20180824-WA0003.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG-20180824-WA0006.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180823_130447.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180825_124340.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180827_073649.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180827_130700.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/IMG_20180827_073833.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/p2.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/p1.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/swachtasaptah1.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/up2.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/up3.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/up4.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/up5.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/s1.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/sd2.jpg' style="width:260px;height:250px;" />
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <img src='Admin/Photo/SAM_2822.jpg' style="width:260px;height:250px;" />
+                                                    </li> -->
+                                                
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <style>
+                                /*-----------------------------------------------------------------------------------*/
+                                .slider_container {
+                                    width: 260px;
+                                    margin: auto;
+                                    clear: both;
+                                    padding: 0px 0 0 0;
+                                }
+
+                                .flex-caption {
+                                    position: absolute;
+                                    right: 11px;
+                                    bottom: 10px;
+                                }
+
+                                .caption_title_line {
+                                    200px;
+                                    padding: 5px;
+                                    color: #fff;
+                                }
+
+                                .flex-container a:active,
+                                .flexslider a:active {
+                                    outline: none;
+                                }
+
+                                .slides,
+                                .flex-control-nav,
+                                .flex-direction-nav {
+                                    margin: 0;
+                                    padding: 0;
+                                    list-style: none;
+                                }
+
+                                /* FlexSlider Necessary Styles
+                            *********************************/
+                                .flexslider {
+                                    width: 100%;
+                                    margin: 0;
+                                    padding: 0 0 0px 0;
+                                }
+
+                                    .flexslider .slides > li {
+                                        display: none;
+                                    }
+                                    /* Hide the slides before the JS is loaded. Avoids image jumping */
+                                    .flexslider .slides img {
+                                        max-width: 100%;
+                                        display: block;
+                                        border: 0px #ededed solid;
+                                    }
+
+                                .flex-pauseplay span {
+                                    text-transform: capitalize;
+                                }
+
+                                .slides:after {
+                                    content: ".";
+                                    display: block;
+                                    clear: both;
+                                    visibility: hidden;
+                                    line-height: 0;
+                                    height: 0;
+                                }
+
+                                html[xmlns] .slides {
+                                    display: block;
+                                }
+
+                                * html .slides {
+                                    height: 1%;
+                                }
+
+                                .no-js .slides > li:first-child {
+                                    display: block;
+                                }
+
+                                .flexslider {
+                                    position: relative;
+                                    zoom: 1;
+                                }
+
+                                    .flexslider .slides {
+                                        zoom: 1;
+                                    }
+
+                                        .flexslider .slides > li {
+                                            position: relative;
+                                        }
+
+                                .flex-container {
+                                    zoom: 1;
+                                    position: relative;
+                                }
+
+                                /* Control Nav */
+                                .flex-control-nav {
+                                    width: 100%;
+                                    position: absolute;
+                                    text-align: left;
+                                    left: 5px;
+                                }
+
+                                    .flex-control-nav li {
+                                        margin: 0 0 2px 0px;
+                                        display: inline-block;
+                                        zoom: 1;
+                                        *display: inline;
+                                    }
+
+                                        .flex-control-nav li:first-child {
+                                            margin: 0;
+                                        }
+
+                                        .flex-control-nav li a {
+                                            width: 10px;
+                                            height: 10px;
+                                            background: url('images/navigation-button.html') no-repeat left top transparent;
+                                            display: block;
+                                            cursor: pointer;
+                                            text-indent: -9999px;
+                                        }
+
+
+                                            .flex-control-nav li a:hover {
+                                                width: 10px;
+                                                height: 10px;
+                                                background: url('images/navigation-buttonh.html') no-repeat left top transparent;
+                                                display: block;
+                                                cursor: pointer;
+                                                text-indent: -9999px;
+                                            }
+
+                                            .flex-control-nav li a.active {
+                                                width: 10px;
+                                                height: 10px;
+                                                background: url('images/navigation-buttonh.html') no-repeat left top transparent;
+                                                display: block;
+                                                cursor: pointer;
+                                                text-indent: -9999px;
+                                            }
+
+                                /* Media Queries
+                            /*-----------------------------------------------------------------------------------*/
+                                .auto-style2 {
+                                    width: 1294px;
+                                }
+                            </style>
+                            <script type="text/javascript" src="Plagin/js/jquery.min.js"></script>
+                            <script type="text/javascript" src="Plagin/js/jquery.flexslider-min.js"></script>
+                            <script type="text/javascript" charset="utf-8">
+                                var $ = jQuery.noConflict();
+                                $(window).load(function () {
+                                    $('.flexslider').flexslider({
+                                        animation: "fade"
+                                    });
+
+                                    $(function () {
+                                        $('.show_menu').click(function () {
+                                            $('.menu').fadeIn();
+                                            $('.show_menu').fadeOut();
+                                            $('.hide_menu').fadeIn();
+                                        });
+                                        $('.hide_menu').click(function () {
+                                            $('.menu').fadeOut();
+                                            $('.show_menu').fadeIn();
+                                            $('.hide_menu').fadeOut();
+                                        });
+                                    });
+                                });
+                            </script>
+                            <div class="clear"></div>
+                            <br />
+                           <!--  <div style="width: 200px; padding: 6px; margin: 2px auto; background: #7d0a7c; font-family: Arial; font-size: 14px; font-weight: bold; text-align: center;"><a style="color: #fff;" href="KVFW_Holiday%20List_2018.pdf">Holiday List 2018</a></div> -->
+                            <br />
+                            <div>
+                                <a href="https://swachhbharatmission.gov.in" target="blank">
+                                    <img src="Plagin/images/sv.gif" width="290" height="55" /></a>
+                            </div> 
+                            <div class="homehea3">Some Useful Link</div>
+                            <div class="downloads_links">
+                                <div id="marqueecontainer" onmouseover="copyspeed=pausespeed" onmouseout="copyspeed=marqueespeed">
+                                <div id="vmarquee" style="position: absolute; left: 3px;">
+                                    <div class="hea"></div>
+                                  <ul> 
+                                   
+                                <li><a href="http://wbsed.gov.in/" target="blank">wbsed.gov.in</a></li>
+                                   <li> <a href="http://ehrms.wbsed.gov.in/" target="blank">ehrms.wbsed.gov.in</a></br></li>
+                                   
+                                    <li><a href="http://howrah.gov.in/" target="blank">howrah.gov.in</a></li>
+                                </ul>
+                                    <br />
+                                </div>
+                            </div>
+                                <div class="clear"></div>
+                                 <!--<div class="homereadmore_bt1"><a href="https://www.youtube.com/channel/UC0h0uoYJX0Mw-_lGd8WrnnA">Youtube Tutorial</a></div> -->
+                                <div class="clear"></div>
+
+                                <br />
+                                <!--<div class="image">-->
+                                <!--    <img src="image/flag.jpg" style="position: absolute; width: 300px;border-style: solid;border-width: 5px; border-color: red green orange yellow; padding: 6px;">-->
+                                    
+                                <!--</div>-->
+                                <!--you tube video portion start-->
+                        <div class="homehea3">Youtube Tutorial video</div>
+                        <div class="principal2">
+                            <!----<object type="application/x-shockwave-flash" data="https://www.youtube.com/v/iryAVrUm-Ek&amp;t=16s" width="260" height="190">
+                                
+                                <param name="movie" value="https://www.youtube.com/v/iryAVrUm-Ek&amp;t=16s"/>
+                            </object>
+                            
+                             
+                            <!--  <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/yO5uDLgUHcM&amp;t=16s" width="260" height="190">-->
+                            <!--    <param name="movie" value="http://www.youtube.com/v/yO5uDLgUHcM&amp;t=16s" />-->
+                                
+                            <!--</object>-->          
+                            <div class="image">
+                 <img src="image/youtube.jpg" style=" width: 100px;">
+                                    
+                                </div>
+                            <br />
+                            
+                            <div class="clear"></div>
+                            
+                            
+                        </div>
+                         <div class="clear"></div> 
+                             <div class="homereadmore_bt1"><a href="https://www.youtube.com/channel/UCRcVz5n0m5_xlRCNQc0Qyuw" target="_blank" style='text-decoration:none'>YouTube Tutorials</a></div>
+                            <div class="clear"></div>   
+                                
+                                
+                                <!--you tube video portion end-->
+                                
+                                <div class="clear"></div>
+                            </div>
+
+
+                        </div>
+                        <!--right_end-->
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+            <div class="clear"></div>
+            <!--footer_start-->
+            <div><div id="footer_main">
+                <div class="footer">
+                    <h3 style="color: #fff">Information</h3>
+
+                    <ul>
+                        <li ><a href="#" style="padding: 8px 15px">Home</a></li>
+                        <li><a href="contact.php" style="padding: 8px 15px">About Us</a></li>
+                        <li><a href="#" target="_blank" style="padding: 8px 15px">Admission</a></li>
+                        <li><a href="KVAadmission_Notice.php" style="padding: 8px 15px">Notice</a></li>
+                        <li><a href="KVPhotoGallery.php" style="padding: 8px 15px">Gallery</a></li>
+                        <li><a href="contact.php"style="padding: 8px 15px">Contact Us</a></li>
+                      
+                    </ul>
+                    <div class="footer2">
+
+                       
+                                    <table class="jqueryslidemenu">
+                                        <div class="row">
+                                            
+                                        
+                                            <div class="col-sm-6">
+
+                                            <td colspan="2" class="auto-style4">
+                                                <span  id="date_time"></span>
+                                                <script type="text/javascript">
+                                                window.onload = date_time('date_time');
+                                                    </script>
+                                          </td>
+                                      </div>
+                                      <div class="col-sm-6">
+                                                                                            <td class="auto-style3">You are Visitor No :<mark class="auto-style1">17080</mark>
+                                            </td>
+                                       </div>
+                                            
+                                          
+
+                                            </div>
+                                        
+                                    </table>
+                              
+                                <table>
+                            <tr>
+                                <td class="maintained">Copyright © 2019, All Rights Reserved By TARASUNDARI BALIKA VIDYABHABAN   &nbsp   <a style="text-decoration:none;font-size: 15px" >Designed & Developed by DEB CONCERN & Snehasis Datta  Phone No. - 9883233701</a>    
+
+                                   
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </form>
+    <script src="Plagin/js/home.js"></script>
+</body>
+
+<!-- Mirrored from www.kvfortwilliam.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jul 2019 11:21:51 GMT -->
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0230'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>

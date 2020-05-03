@@ -1,0 +1,417 @@
+﻿<!DOCTYPE 
+<html>
+
+<head><title>
+	JSMV
+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="favicon-2.html" />
+    <link href="Plagin/css/style.css" rel="stylesheet" />
+    <link href="Plagin/fontsRvss/stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <script src="Plagin/js/jquery-1.6.4.min.js"></script>
+    <script src="Plagin/mainManu/jquery-1.js"></script>
+    <script src="Plagin/mainManu/jquerymenu.js"></script>
+    <script src="Plagin/js/rvssDisable.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="Plagin/mainManu/menu.css" rel="stylesheet" />
+
+    <script src="Plagin/js/rvssDisable.html"></script>
+    <script type="text/javascript">
+        function date_time(id) {
+            date = new Date;
+            year = date.getFullYear();
+            month = date.getMonth();
+            months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+            d = date.getDate();
+            day = date.getDay();
+            days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+            h = date.getHours();
+            if (h < 10) {
+                h = "0" + h;
+            }
+            m = date.getMinutes();
+            if (m < 10) {
+                m = "0" + m;
+            }
+            s = date.getSeconds();
+            if (s < 10) {
+                s = "0" + s;
+            }
+            result = '' + days[day] + ' ' + months[month] + ' ' + d + ' ' + year + ' ' + h + ':' + m + ':' + s;
+            document.getElementById(id).innerHTML = result;
+            setTimeout('date_time("' + id + '");', '1000');
+            return true;
+        }
+    </script>
+    
+</head>
+<body>
+    <!--main_block_start-->
+    <div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWDAIBDw8WAh4EVGV4dAUbZm9ydHdpbGxpYW1rdi5rdnNAZ21haWwuY29tZGQCAw8PFgIfAAUMMDMzLTIyNDg1MTE3ZGQCBQ8PFgIfAAUMMDMzLTIyMzAyODQ1ZGQCBw8PFgIfAAVW4KSV4KWH4KSo4KWN4KSm4KWN4KSw4KWA4KSvIOCkteCkv+CkpuCljeCkr+CkvuCksuCkryDgpKvgpYvgpLDgpY3gpJ/gpLXgpL/gpLLgpL/gpK/gpK5kZAIJDw8WAh8ABR5LRU5EUklZQSBWSURZQUxBWUEgRk9SVFdJTExJQU1kZAILDw8WAh8ABQcyNDAwMDAxZGRkD3ZIdf6GS8/ZgjnbRUWgJ8DOQs8jlFWkYDdYXZ7/3Tk=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmKvs_'];
+if (!theForm) {
+    theForm = document.frmKvs_;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F77A82F8" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIRSy+Gu0gMRTph3NzRhiGdW5LM7MyPfF3EEwohgyJ8OKLySUaZjIH4gumUbLi1cZqer0wJ/tODnWqNa0nPfOpi" />
+</div>
+        <div id="main_block">
+            <!--header_start-->
+            <!--header_start-->
+            <div id="header">
+                 <div class="top_icons">
+                    <div class="email">
+                        <a href="#">
+                            <a id="lbEmail" href="javascript:__doPostBack(&#39;ctl00$lbEmail&#39;,&#39;&#39;)" style="color:Maroon;">jyotirmoysanatanimahavidyapith@gmail.com</a></a>
+                    </div>
+                    <div class="phone">
+                        <span id="lblPhoneNo">(+91)7044771296</span>
+                    </div>
+
+                    <!-- <div class="fax">
+                        <span id="lblFax">7044771296</span>
+                    </div -->>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <!-- header start -->
+                <div style="background: #55040b">
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div style="width: 160px;height: auto;margin: auto;padding: 10px 0;">
+                             <img src="Plagin/images/logo1.png" class="img-responsive" >
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div style="padding: 18px 0">
+                            <h3 style="color: #fff;font-size: 30px;text-align: center;margin: 3px">JYOTIRMOY SANATANI MAHAVIDYAPITH</h3>
+                            <h6 style="color: #fff;font-size: 20px;text-align: center;margin: 0px">Registration No :.................</h6>
+                            
+                             <h3 style="color: #fff;font-size: 22px;text-align: center;margin: 0px">Accridiated Under United Nations (UNCCD)</h3>
+                           
+                                                     </div>
+                        </div>
+
+
+                        <div class="col-sm-3">
+                             <div style="width: 160px;height: auto;margin: auto;padding: 10px 0;">
+                        <img src="Plagin/images/saraswati.png" class="img-responsive" >
+                            
+                       </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>            <!--header_end-->
+            <!--main_container_start-->
+
+            <div id="nav">
+                <div id="myslidemenu" class="jqueryslidemenu">
+                    <div id="nav">
+                <div id="myslidemenu" class="jqueryslidemenu">
+                    <ul>
+                        <li style="width:10%"><a href="index-2.html">&nbsp &nbsp &nbsp Home</a></li>
+                        <li style="width:10%">
+                            <a href="#">About us</a>
+                            <ul>
+                                <li><a href="principal.html">Acharya's&#39;s Message</a></li>
+                                <li><a href="Mahavidyapith_history.html">Mahavidyapith History</a></li>
+                                <li><a href="about.html">Aims and Objectives:</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li style="width:10%">
+                            <a href="#">Academics</a>
+                            <ul>
+                                <li>
+                                    <a href="index-2.html">Students</a>
+                                   <!--  <ul>
+                                        <li><a href="KVEnrolment_ClassWise.php">Class wise enrolment</a></li>
+                                        <li><a href="KVEnrolment_CategoryWise.php">Category-wise enrolment </a></li>
+                                        <li><a href="KVStudent_Vacancy.php">Student Vacancy </a></li>
+                                        <li><a href="http://kvsangathan.nic.in/FeeStructure.aspx">Fee Structure</a></li>
+                                        <li><a href="KVStudent_Achievers.php">Student Achievers</a></li>
+                                    </ul> -->
+
+                                </li>
+                                <li>
+                                    <a href="index-2.html">Exam</a>
+                                    <!-- <ul>
+                                        <li><a href="index.php">Result analysis </a></li>
+                                        <li><a href="index.php">Schedule</a></li>
+                                    </ul -->
+                                </li>
+                                <li>
+                                    <a href="index-2.html">Project/Activities</a>
+                                    <!-- <ul>
+                                        <li><a href="KVCmp.php">CMP</a></li>
+                                        <li><a href="KVCca.php">CCA</a></li>
+                                        <li><a href="KVCce.php">UNIFORM SYSTEM OF ASSESSMENT</a></li>
+                                        <li><a href="KVInnovations.php">Innovations</a></li>
+                                        <li><a href="KVGames.php">Game and Sports</a></li>
+                                        <li><a href="KVScouts.php">Scouts and Guides &amp; NCC/ NSS</a></li>
+                                    </ul> -->
+                                </li>
+                                <li><a href="KVIct.html">ICT</a></li>
+                                
+                                <li><a href="index-2.html">Teacher Achievers</a></li>
+                            </ul>
+                        </li>
+                        <li style="width:10%">
+                            <a href="#">Administration</a>
+                            <ul>
+                                
+                                <li><a href="KVStaffMember.html">Administrative Members</a></li>
+                                
+
+                            </ul>
+                        </li>
+                        
+                        <li style="width:10%">
+                            <a href="#">Miscellaneous</a>
+                            <ul>
+                               
+
+                                <li>
+                                    <a href="#">Useful Links</a>
+                                    <ul>
+                                        <li><a href="http://google.com/" target="blank">google.com</a></li>
+                                        <li><a href="http://rediff.com//" target="blank">rediff.com</a></li>
+                                        <li><a href="http://who.org/" target="blank">who.org</a></li>
+
+
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="width:10%"><a href="index.php">Student Corner</a></li>
+                        <li style="width:10%"><a href="KVPhotoGallery.php">Photo Gallery</a> </li>
+                        <li style="width:10%">
+                            <a href="#">Admissions</a>
+                            <ul>
+                                <li><a href="index.php">Admission Schedule</a></li>
+                                <li><a href="KVAadmission_Notice.php">Admission Notice</a></li>
+                                <li><a href="index.php">Admission Lists</a></li>
+                                <li><a href="##">Admission Guidellines</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li style="width:10%"><a href="KVAadmission_Notice.php">Notice</a></li>
+                        <li style="width:8%">
+                            <a href="contact.html">Contact Us</a>
+                            <ul>
+                                <!-- <li><a href="change_admin.php">Please change admin</a></li> -->
+                                <!-- <li><a href="admin/admin_login.php" target="blank">Admin Login</a></li> -->
+                             </ul>
+                         </li>
+                        <div id="google_translate_element" style="padding: 4px; text-align: right"></div>
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+                            }
+                        </script>
+                        <script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit"></script>
+                    </ul>
+                </div>
+            </div>                </div>
+            </div>
+
+   
+            <!--boxes_end-->
+            <div class="clear"></div>
+        </div>
+
+
+        <div id="homecontent_block">
+            <!--main_container_end-->
+             <div class="row bg-color-1">
+                <div class="col-sm-12">
+                    <div class="inner-banner">
+                        <img src="Sliding/image/title-bg.jpg" class="img-responsive" alt="titlebg" style="width:100%">
+                    </div>
+                   
+                </div>
+        
+            </div>
+            
+    <div id="main_block">
+        <div id="main_container">
+
+            <table class="jqueryslidemenu">
+                <tr>
+                    <td style="border: 0px solid; border-color: brown">
+                        <table style="width: 100%; height: 500px; border: 2px">
+                            <tr>
+                                <td height="22">
+                                    <div align="center" class="style10"><span class="style10"><span class="style12 style14"><strong style="font-size: 20px">ABOUT Jyotirmoy Jyotise (Lustrelogy) Research Academy</strong></span></span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="100" valign="top">
+                                    <table width="932" border="0" align="center">
+                                        <tr>
+                                            <td width="902">
+                                                <div align="center"><span class="style8"></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div align="center">
+                                                    <table width="888" bgcolor="#FFFFFF" style="color: brown; font-size: 18px;">
+                                                        <tr>
+                                                            <td>"Janani Sarada Devi Ramakrishna Jagat Guru padpadme tayo sritwa pranamami muhurmuhu" Keeping the shrine in mind of “Lord Ramakrishna, Devi Sarada, Swami Vivekananda and Sister Nivedita.” We have been engaging ourselves in Women’s education. Since our born time. Beside these we encourage our students to participate different cultural and social activities. The successful steps of our Institution are:</br></br>
+<li>
+Launching new website with all updated information’s.
+</li>
+<li>
+Newly form of Library.
+</li>
+<li>
+Midday meal programme by successful implementation of balance diet.
+</li>
+<li>
+Excursion.
+</li>
+<li>
+Magazine.
+</li>
+<li>
+Various competition cultural activities.
+</li>
+<li>
+Monthly parents teacher meeting.
+</li>
+<li>
+Spoken English.
+</li>
+<li>
+Karate, Gymnastic and Yoga.
+</li>
+<li>
+Weekly evaluation test.
+</li>
+<li>
+Systematic prayer heads by Guravandana and Bani path.
+</li>
+<li>
+Class teacher system.
+</li>
+<li>
+Exhibition on great personalities.
+</li>
+<li>
+Brotochari.
+</li>
+<li>
+Sports.
+</li>
+</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+            <div class="clear"></div>
+            <!--footer_start-->
+            
+<div><div id="footer_main">
+                <div class="footer">
+                    <h3 style="color: #fff">Information</h3>
+
+                    <ul>
+                        <li ><a href="#" style="padding: 8px 15px">Home</a></li>
+                        <li><a href="contact.html" style="padding: 8px 15px">About Us</a></li>
+                        <li><a href="#" target="_blank" style="padding: 8px 15px">Admission</a></li>
+                        <li><a href="KVAadmission_Notice.html" style="padding: 8px 15px">Notice</a></li>
+                        <li><a href="KVPhotoGallery.html" style="padding: 8px 15px">Gallery</a></li>
+                        <li><a href="contact.html"style="padding: 8px 15px">Contact Us</a></li>
+                      
+                    </ul>
+                    <div class="footer2">
+
+                       
+                                    <table class="jqueryslidemenu">
+                                        <div class="row">
+                                            
+                                        
+                                            <div class="col-sm-6">
+
+                                            <td colspan="2" class="auto-style4">
+                                                <span  id="date_time"></span>
+                                                <script type="text/javascript">
+                                                window.onload = date_time('date_time');
+                                                    </script>
+                                          </td>
+                                      </div>
+                                      <div class="col-sm-6">
+                                                                                            <td class="auto-style3">You are Visitor No :<mark class="auto-style1">16337</mark>
+                                            </td>
+                                       </div>
+                                            
+                                          
+
+                                            </div>
+                                        
+                                    </table>
+                              
+                                <table>
+                            <tr>
+                                <td class="maintained">Copyright © 2020, All Rights Reserved By JYOTIRMOY SANATANI MAHAVIDYAPITH   &nbsp   <a style="text-decoration:none;font-size: 15px" >Designed & Developed by Subrata Mondal  </a>    
+
+                                   
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </form>
+    <script src="Plagin/js/home.js"></script>
+</body>
+
+</html>
